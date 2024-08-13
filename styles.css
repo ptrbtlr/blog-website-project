@@ -9,7 +9,7 @@
 body {
     padding: 50px;
 }
-#navbar {
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,7 +27,7 @@ a {
     text-decoration: none;
 }
 
-#footer {
+.footer {
     margin-top: 50px;
     padding: 20px;
     background-color: #f1f1f1;
@@ -35,7 +35,7 @@ a {
     align-items: center;
 }
 
-#footer > ul {
+.footer > ul {
     margin-top: 10px;
     list-style: none;
     display: flex;
