@@ -1,5 +1,4 @@
 /* Global Styles */
-
 * {
     padding: 0;
     margin: 0;
@@ -14,6 +13,24 @@ body {
 h1 {
     font-weight: 700;
     font-size: 48px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Homepage Styles */
@@ -37,24 +54,6 @@ h1 {
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-a {
-    text-decoration: none;
 }
 
 .footer {
