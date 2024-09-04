@@ -1,0 +1,29 @@
+/* Indexpage Styles */
+#cards {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+@media (max-width: 768px) {
+  #cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.post {
+  border: solid 1px lightgrey;
+  padding: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.post:nth-child(even) .post-header h3 {
+  color: green;
+}
+
+.post:nth-child(odd) .post-header h3 {
+  color: red;
+}

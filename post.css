@@ -1,0 +1,42 @@
+/* Blog Post Page Styles */
+.container {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+}
+
+.blog-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.sidebar {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.side-links li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.side-links h3,
+.about-sidebar h3 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.about-sidebar {
+  background-color: rgb(244, 244, 244);
+  padding: 15px;
+}
+
+.list {
+  padding-left: 40px;
+}
