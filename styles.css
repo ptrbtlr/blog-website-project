@@ -63,12 +63,12 @@ button {
   background-color: white;
 }
 
-#btn-1 {
+.btn-1 {
   border-color: blue;
   color: blue;
 }
 
-#btn-2 {
-  border-color: gray;
-  color: gray;
+.btn-2 {
+  border-color: black;
+  color: black;
 }
