@@ -1,136 +1,74 @@
-/* Global Styles */
+@import url(index.css);
+@import url(post.css);
+/* not sure why necessary to have 3 imported css files as the rubric says? */
 
+/* Global Styles */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    padding: 50px;
-    font-family: "Roboto", sans-serif;
+  padding: 50px;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
-    font-weight: 700;
-    font-size: 48px;
-}
-
-/* Homepage Styles */
-
-#posts {
-    padding-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
-}
-
-@media (max-width: 768px) {
-    #posts {
-        grid-template-columns: 1fr;
-    }
-}
-
-.post {
-    border: solid 1px lightgrey;
-    padding: 20px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  font-weight: 700;
+  font-size: 48px;
 }
 
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-links {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .footer {
-    margin-top: 50px;
-    padding: 20px;
-    background-color: #f1f1f1;
-    text-align: center;
-    align-items: center;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+  align-items: center;
 }
 
-.footer>ul {
-    margin-top: 10px;
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+.footer > ul {
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
-.container {
-    padding-top: 50px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 20px;
-    max-width: 1200px;
-  
-  }
+.buttons {
+  padding-top: 25px;
+}
 
-  .blog-contents {
-    display: flex;
-    flex-direction: column;
-    gap:10px;
-    padding-top: 20px;
-  }
+button {
+  border-radius: 15px;
+  padding: 5px;
+  background-color: white;
+}
 
-  .sidebar {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+#btn-1 {
+  border-color: blue;
+  color: blue;
+}
 
-  .side-links li {
-    text-decoration: none;
-    list-style-type: none;
-  }
-
-  .side-links h3, .about-sidebar h3 {
-    font-weight: bold;
-    font-style: italic;
-  }
-
-  .about-sidebar {
-    background-color: rgb(244, 244, 244);
-    padding: 15px;
-  }
-
-  .list {
-    padding-left: 40px;
-  }
-
-  .buttons {
-    padding-top: 25px;
-  }
-
-  button {
-    border-radius: 15px;
-    padding: 5px;
-    background-color: white;
-  }
-
-  #btn-1 {
-    border-color: blue;
-    color: blue;
-  }
-
-  #btn-2 {
-    border-color: gray;
-    color: gray;
-  }
+#btn-2 {
+  border-color: gray;
+  color: gray;
+}
