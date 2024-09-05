@@ -40,3 +40,9 @@
 .list {
   padding-left: 40px;
 }
+
+@media only screen and (max-width: 768px) {
+  aside.sidebar {
+    display: none;
+  }
+}
